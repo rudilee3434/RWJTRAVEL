@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RWJ Travel - Aventuras Extraordinarias</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">🌍 RWJ Travel</h1>
+      <button class="hamburguesa" id="abrir-menu">&#9776;</button>
+      <ul class="nav-links" id="menu">
+        <li><a href="#" id="inicio-link">🏠 Inicio</a></li>
+        <li><a href="#" id="destinos-link">🗺️ Destinos</a></li>
+        <li><a href="#" id="servicios-link">🎯 Servicios</a></li>
+        <li><a href="#" id="inversiones-link">💰 Inversiones</a></li>
+        <li><a href="#" id="contacto-link">📧 Contacto</a></li>
+        <li><a href="#" id="acerca-link">ℹ️ Acerca de</a></li>
+        <li><button id="cerrar-menu">&times;</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <div class="hero-section">
+      <h1>Bienvenido Viajero</h1>
+      <p>Descubre el mundo con RWJ Travel - Tu compañero de aventuras extraordinarias</p>
+      <div class="logo-container">
+        <svg width="300" height="300" viewBox="0 0 300 300" style="border-radius: 50%; box-shadow: 0 10px 30px rgba(0,0,0,0.2);">
+          <defs>
+            <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#2c5c5c;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#4a7c59;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" style="stop-color:#d2691e;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#cd853f;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <circle cx="150" cy="150" r="140" fill="url(#bgGrad)"/>
+          <circle cx="150" cy="80" r="30" fill="url(#sunGrad)"/>
+          <path d="M50 120 Q100 80 150 120 Q200 80 250 120 L250 180 Q200 220 150 180 Q100 220 50 180 Z" fill="#8fbc8f" opacity="0.8"/>
+          <path d="M80 200 Q120 180 150 200 Q180 180 220 200 L220 240 Q180 260 150 240 Q120 260 80 240 Z" fill="#a0d2a0" opacity="0.6"/>
+          <circle cx="70" cy="140" r="8" fill="#654321"/>
+          <circle cx="90" cy="160" r="6" fill="#654321"/>
+          <circle cx="210" cy="150" r="10" fill="#654321"/>
+          <path d="M200 130 L210 120 L215 125 L225 115 L230 120 L235 110" stroke="#654321" stroke-width="2" fill="none"/>
+          <text x="150" y="155" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="white">RWJ</text>
+          <text x="150" y="185" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="white">TRAVEL</text>
+        </svg>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <p>@RWJ Travel - Todos los derechos reservados</p>
+      <div class="footer-elaborated">
+        <p>Elaborado por: <strong>Rudi, Waldir y José</strong></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
